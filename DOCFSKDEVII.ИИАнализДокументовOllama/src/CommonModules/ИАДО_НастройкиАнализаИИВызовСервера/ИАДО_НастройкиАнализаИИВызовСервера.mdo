@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="780899d4-5cea-4056-84ec-6abed80b7a3e">
+  <name>ИАДО_НастройкиАнализаИИВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки анализа ИИ (вызов сервера)</value>
+  </synonym>
+  <comment>Константы, подбор эксперта по правилам, параметры промпта.</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7c3d8e1-4f2a-4c9d-8e5b-1a6f9c2d4e8b">
+  <producedTypes>
+    <managerType typeId="f1e2d3c4-b5a6-4789-8def-012345678901" valueTypeId="f1e2d3c4-b5a6-4789-8def-012345678902"/>
+    <valueManagerType typeId="f1e2d3c4-b5a6-4789-8def-012345678903" valueTypeId="f1e2d3c4-b5a6-4789-8def-012345678904"/>
+    <valueKeyType typeId="f1e2d3c4-b5a6-4789-8def-012345678905" valueTypeId="f1e2d3c4-b5a6-4789-8def-012345678906"/>
+  </producedTypes>
+  <name>ИАДО_OpenRouterБазовыйURL</name>
+  <synonym>
+    <key>ru</key>
+    <value>OpenRouter: базовый URL API</value>
+  </synonym>
+  <comment>Обычно https://openrouter.ai/api/v1 (без завершающего слэша). Для прокси укажите свой хост с тем же суффиксом путей /v1/…</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

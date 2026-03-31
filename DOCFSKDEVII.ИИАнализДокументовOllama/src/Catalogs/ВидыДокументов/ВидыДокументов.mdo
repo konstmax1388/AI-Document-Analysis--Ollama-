@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="da08b69b-e08a-40bd-8f4d-040cab64615f" extendedConfigurationObject="ae67bb20-cf6f-43c2-ac61-762b48efacf2">
+  <producedTypes>
+    <objectType typeId="a7f91d0b-9e11-4333-9580-3d0ba75c1de7" valueTypeId="9441c1f3-5f9c-4b0d-9f24-09cb260431bf"/>
+    <refType typeId="9f884022-16fe-4307-a846-e1543619ea57" valueTypeId="e34f8515-f6f1-4ca0-9f3a-04b6d1e57b5b"/>
+    <selectionType typeId="c1f620db-4d75-4d1d-a45c-77ecb6fcdc0e" valueTypeId="c776e7dd-e752-4f5b-be2a-a970c808d6cf"/>
+    <listType typeId="11023c47-9955-4492-ad58-5fd228844016" valueTypeId="2d3d9cd7-453f-4e49-9edc-3dca9b12d049"/>
+    <managerType typeId="471b3f1c-76d9-4b85-84d7-853bb4fcbd0e" valueTypeId="8280b1a9-ab63-402c-a05a-46dc6414cd17"/>
+  </producedTypes>
+  <name>ВидыДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

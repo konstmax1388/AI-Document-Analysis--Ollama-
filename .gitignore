@@ -1,0 +1,16 @@
+# 1C / EDT
+**/bin/
+**/.metadata/
+**/.settings/org.eclipse.core.resources/.history/
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+
+# Локальные dt/cf (при необходимости раскомментируйте)
+# *.dt
+# *.cf
+
+# Окружение (если появятся секреты)
+.env
+*.secret

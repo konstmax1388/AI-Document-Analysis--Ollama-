@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b2c3d4-e5f6-4789-a012-b3c4d5e6f708">
+  <producedTypes>
+    <selectionType typeId="b2c3d4e5-f6a7-4890-b123-c4d5e6f70891" valueTypeId="c3d4e5f6-a7b8-4901-c234-d5e6f708912a"/>
+    <listType typeId="d4e5f6a7-b8c9-4012-d345-e6f708912abc" valueTypeId="e5f6a7b8-c9d0-4123-e456-f708912abcde"/>
+    <managerType typeId="f6a7b8c9-d0e1-4234-f567-08912abcdef0" valueTypeId="a7b8c9d0-e1f2-4345-a678-912abcdef012"/>
+    <recordSetType typeId="b8c9d0e1-f2a3-4456-b789-12abcdef0123" valueTypeId="c9d0e1f2-a3b4-4567-c890-1abcdef01234"/>
+    <recordKeyType typeId="d0e1f2a3-b4c5-4678-d901-2abcdef01234" valueTypeId="e1f2a3b4-c5d6-4789-e012-3abcdef01234"/>
+    <recordType typeId="f2a3b4c5-d6e7-4890-f123-4abcdef01234" valueTypeId="a3b4c5d6-e7f8-4901-a234-5bcdef012345"/>
+    <recordManagerType typeId="b4c5d6e7-f8a9-4123-b345-6cdef0123456" valueTypeId="c5d6e7f8-a9b0-4234-c456-7def01234567"/>
+  </producedTypes>
+  <name>ИАДО_МоделиЛокальногоOllama</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели локального Ollama</value>
+  </synonym>
+  <comment>Синхронизация с GET /api/tags. Флаг «Доступна для выбора» включает модель в списке карточки эксперта.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ИАДО_МоделиЛокальногоOllama.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Модели Ollama на сервере</value>
+  </listPresentation>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Модель Ollama</value>
+  </recordPresentation>
+  <resources uuid="d6e7f8a9-b0c1-4234-d567-8ef012345678">
+    <name>ДоступнаДляВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступна для выбора в эксперте</value>
+    </synonym>
+    <comment>Если истина — имя модели попадает в список выбора в карточке эксперта (провайдер Ollama).</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>false</value>
+    </fillValue>
+  </resources>
+  <resources uuid="e7f8a9b0-c1d2-4345-e678-9f0123456789">
+    <name>ЕстьНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть на сервере (последняя синхронизация)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="f8a9b0c1-d2e3-4456-f789-a01234567890">
+    <name>РазмерБайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер (байт)</value>
+    </synonym>
+    <comment>Из ответа Ollama /api/tags (поле size).</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="a9b0c1d2-e3f4-4567-a890-b12345678901">
+    <name>ИмяМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя модели</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d1e2f3a4-b5c6-4789-d012-e3f4a5b6c7d8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи модели</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

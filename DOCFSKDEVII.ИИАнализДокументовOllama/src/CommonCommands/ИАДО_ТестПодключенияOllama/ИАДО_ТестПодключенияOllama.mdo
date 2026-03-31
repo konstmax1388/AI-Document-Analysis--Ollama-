@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d9f0e2b-4c5d-6e7f-8091-a2b3c4d5e6f7">
+  <name>ИАДО_ТестПодключенияOllama</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест ответа Ollama</value>
+  </synonym>
+  <comment>Запрос к API generate с промптом «Привет! как тебя зовут?».</comment>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df186cff-af67-4f06-84fb-56c844518271">
+  <name>ИАДО_ИнтеграцияOllamaВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция Ollama (вызов сервера)</value>
+  </synonym>
+  <comment>HTTP-вызовы API Ollama, разбор ответов.</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4e5f6a7-b8c9-4012-d3e4-f5a6b7c8d9e0">
+  <producedTypes>
+    <managerType typeId="c3d4e5f6-a7b8-4901-c2d3-e4f5a6b7c8d9" valueTypeId="c3d4e5f6-a7b8-4901-c2d3-e4f5a6b7c8da"/>
+    <valueManagerType typeId="c3d4e5f6-a7b8-4901-c2d3-e4f5a6b7c8db" valueTypeId="c3d4e5f6-a7b8-4901-c2d3-e4f5a6b7c8dc"/>
+    <valueKeyType typeId="c3d4e5f6-a7b8-4901-c2d3-e4f5a6b7c8dd" valueTypeId="c3d4e5f6-a7b8-4901-c2d3-e4f5a6b7c8de"/>
+  </producedTypes>
+  <name>ИАДО_OpenRouterМодельПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>OpenRouter: модель по умолчанию</value>
+  </synonym>
+  <comment>Для теста подключения и запасной модели: например openrouter/free (Free Models Router).</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

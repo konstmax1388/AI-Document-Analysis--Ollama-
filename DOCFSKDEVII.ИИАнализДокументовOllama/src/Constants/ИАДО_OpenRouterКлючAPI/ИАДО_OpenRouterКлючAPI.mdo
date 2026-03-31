@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6b5c4d3-e2f1-4098-87ab-6c5d4e3f2a1b">
+  <producedTypes>
+    <managerType typeId="e2f3a4b5-c6d7-4890-91ab-cdef01234567" valueTypeId="e2f3a4b5-c6d7-4890-91ab-cdef01234568"/>
+    <valueManagerType typeId="e2f3a4b5-c6d7-4890-91ab-cdef01234569" valueTypeId="e2f3a4b5-c6d7-4890-91ab-cdef0123456a"/>
+    <valueKeyType typeId="e2f3a4b5-c6d7-4890-91ab-cdef0123456b" valueTypeId="e2f3a4b5-c6d7-4890-91ab-cdef0123456c"/>
+  </producedTypes>
+  <name>ИАДО_OpenRouterКлючAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>OpenRouter: ключ API</value>
+  </synonym>
+  <comment>Секретный ключ sk-or-… с openrouter.ai. Храните в защищённой ИБ; при необходимости замените на хранилище паролей БСП.</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c8e9f1a-3b4c-5d6e-7f80-91a2b3c4d5e6">
+  <producedTypes>
+    <managerType typeId="f1a2b3c4-d5e6-4789-a012-b3c4d5e6f708" valueTypeId="a2b3c4d5-e6f7-4890-b123-c4d5e6f70819"/>
+    <valueManagerType typeId="b3c4d5e6-f7a8-4901-c234-d5e6f7081920" valueTypeId="c4d5e6f7-a8b9-4012-d345-e6f708192031"/>
+    <valueKeyType typeId="d5e6f7a8-b9c0-4123-e456-f70819203142" valueTypeId="e6f7a8b9-c0d1-4234-f567-081920314253"/>
+  </producedTypes>
+  <name>ИАДО_OllamaМодельПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ollama: модель по умолчанию</value>
+  </synonym>
+  <comment>Имя модели для теста и сценариев по умолчанию, например llama3 или qwen2.5.</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

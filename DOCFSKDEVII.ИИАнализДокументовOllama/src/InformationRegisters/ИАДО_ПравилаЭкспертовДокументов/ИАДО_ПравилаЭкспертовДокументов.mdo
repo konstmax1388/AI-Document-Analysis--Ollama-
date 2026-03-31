@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efa8e3c1-7070-499c-a0fe-89f3bd48cf26">
+  <producedTypes>
+    <selectionType typeId="9910eca3-ebdd-4968-9380-4042ce1b90e7" valueTypeId="b205b021-b50c-4bf6-b7b5-4791fc92fcc0"/>
+    <listType typeId="a10f8f92-64c5-45a0-98de-82b9beff63ba" valueTypeId="8bce8171-573b-4fea-b394-b3c2e335cec8"/>
+    <managerType typeId="5b2c9a2d-7e4a-4742-be98-99517646d7f6" valueTypeId="8d3d6ea7-cca2-49a4-9079-23a6c7d7d72e"/>
+    <recordSetType typeId="efa5ed64-2514-4735-ac8a-9180dd8191eb" valueTypeId="2bec2882-5d77-4838-b157-68d150b939de"/>
+    <recordKeyType typeId="c4da4c50-245c-42b6-92f8-d349e4f76963" valueTypeId="24779338-0285-4579-93b2-9fa133bfe673"/>
+    <recordType typeId="66c26e10-a8dc-46a4-b7ac-1ff64605d1a6" valueTypeId="5e66adcf-1db9-4f30-9eff-8c50d0b95a90"/>
+    <recordManagerType typeId="65e16f54-9055-43b7-887c-daedd82f2525" valueTypeId="a5b32ceb-4927-4ac7-8636-5619feb8256a"/>
+  </producedTypes>
+  <name>ИАДО_ПравилаЭкспертовДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила выбора эксперта по виду и тематике</value>
+  </synonym>
+  <comment>Одна запись = сочетание вида и тематики (пустая ссылка в измерении — «любой»). Промпт в строке обязателен: он уходит в ИИ вместе с текстом файла. ПорядокПрименения: меньше — выше приоритет.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ИАДО_ПравилаЭкспертовДокументов.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Правила: вид и тематика — эксперт</value>
+  </listPresentation>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Правило выбора эксперта</value>
+  </recordPresentation>
+  <resources uuid="947767d5-5893-4775-9968-4c25e3391968">
+    <name>Эксперт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эксперт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИАДО_ЭкспертыИИ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="39f0fb0b-9413-4f53-9445-81d637dbb426">
+    <name>ПорядокПрименения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок применения</value>
+    </synonym>
+    <comment>Меньшее число — выше приоритет при подборе.</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>100</value>
+    </fillValue>
+  </resources>
+  <resources uuid="b2c3d4e5-f6a7-4890-b123-c4d5e6f70891">
+    <name>ПромптОбработкиДокументаХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промпт обработки документа</value>
+    </synonym>
+    <comment>Как обработать текст документа для данного сочетания вида и тематики. Хранится в хранилище значения (без ограничения длины).</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="66abfce8-0db9-4864-ab38-1c2ed18d9259">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <comment>Пустая ссылка — любой вид.</comment>
+    <type>
+      <types>CatalogRef.ВидыДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7d42b54e-bf03-45d3-a08a-3f3ca56dba8f">
+    <name>ТематикаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тематика документа</value>
+    </synonym>
+    <comment>Пустая ссылка — любая тематика.</comment>
+    <type>
+      <types>CatalogRef.ТематикиДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d4e5f6a7-b8c9-4012-d345-e6f70891a2b3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи правила</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

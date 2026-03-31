@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1f2a3b4-c5d6-4789-e012-f3a4b5c6d7e8">
+  <name>ИАДО_ЗагрузитьМоделиOllamaССервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить модели Ollama с сервера</value>
+  </synonym>
+  <comment>GET /api/tags по константе «Ollama: базовый URL», обновление регистра «Модели локального Ollama».</comment>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

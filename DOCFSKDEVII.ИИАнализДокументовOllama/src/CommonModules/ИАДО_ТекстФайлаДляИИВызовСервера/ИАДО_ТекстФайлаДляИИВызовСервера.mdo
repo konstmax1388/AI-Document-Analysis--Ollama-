@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7f80910-2132-4354-a576-b8790abc0001">
+  <name>ИАДО_ТекстФайлаДляИИВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текст файла для ИИ (вызов сервера)</value>
+  </synonym>
+  <comment>Регистр текстов версий и серверное извлечение текста для Ollama.</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

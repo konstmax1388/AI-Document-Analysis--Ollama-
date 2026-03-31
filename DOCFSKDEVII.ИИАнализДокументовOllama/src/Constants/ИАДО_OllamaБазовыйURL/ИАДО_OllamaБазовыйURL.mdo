@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="074d8a7f-5650-4830-981f-c1fead04a07a">
+  <producedTypes>
+    <managerType typeId="422c95e4-e64a-42e2-9413-50d1d65b7577" valueTypeId="35c1b1b2-5736-46ae-9b89-2a93ab55e394"/>
+    <valueManagerType typeId="ca6269f5-92e1-4a52-8ed8-5380089e48cd" valueTypeId="c75f24b8-ac26-4b9f-8a6f-83370bb2a27e"/>
+    <valueKeyType typeId="768579fb-a2e0-4fa3-9e6b-d4365bb7b3e3" valueTypeId="3df49131-2bb3-4a3b-8d2c-6cc31e3899c8"/>
+  </producedTypes>
+  <name>ИАДО_OllamaБазовыйURL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ollama: базовый URL</value>
+  </synonym>
+  <comment>Например http://192.168.10.79:11434</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

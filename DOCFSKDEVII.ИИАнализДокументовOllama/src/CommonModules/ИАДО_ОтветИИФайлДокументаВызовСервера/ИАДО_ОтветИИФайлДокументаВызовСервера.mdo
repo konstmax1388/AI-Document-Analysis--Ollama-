@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3a51f2b-6d84-4f1e-9c0a-7b8e6d4c2a10">
+  <name>ИАДО_ОтветИИФайлДокументаВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответ ИИ: файл DOCX у документа</value>
+  </synonym>
+  <comment>Сборка простого DOCX с текстом ответа модели и создание элемента справочника Файлы, прикрепленного к документу.</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

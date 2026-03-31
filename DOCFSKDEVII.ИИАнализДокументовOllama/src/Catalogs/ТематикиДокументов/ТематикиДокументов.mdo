@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dd4960c9-12ef-4fc3-9d00-0115f683128a" extendedConfigurationObject="cc144bba-2659-4c51-88a4-6dcb85cd276d">
+  <producedTypes>
+    <objectType typeId="b3a303e7-e49f-448d-b85f-a4542b8c6a79" valueTypeId="f7c4d3d8-4339-4fba-9965-73c7d8fc680e"/>
+    <refType typeId="d2eeae98-5b70-4e4d-a8d0-07a2067370b9" valueTypeId="49214fd1-8a8b-4ae2-9ece-49d9eaf86ccc"/>
+    <selectionType typeId="0772e427-cbdf-4e6e-9b77-aaffdeb920a9" valueTypeId="a7d5487c-4710-43e8-b61b-b43bf4e6397f"/>
+    <listType typeId="0411163f-457c-4f45-ab39-2e98721be708" valueTypeId="f4ea48d4-33bb-420a-846f-f7cf99254b83"/>
+    <managerType typeId="2906908d-c53d-4f26-887f-2ca48db28347" valueTypeId="c84e54b9-200b-49d9-abc8-7fe04be9086c"/>
+  </producedTypes>
+  <name>ТематикиДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

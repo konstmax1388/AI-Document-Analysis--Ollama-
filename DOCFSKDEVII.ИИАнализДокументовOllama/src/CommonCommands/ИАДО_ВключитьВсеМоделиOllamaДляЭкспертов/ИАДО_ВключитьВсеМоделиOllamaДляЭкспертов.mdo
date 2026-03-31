@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2a3b4c5-d6e7-4890-f123-a4b5c6d7e8f9">
+  <name>ИАДО_ВключитьВсеМоделиOllamaДляЭкспертов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включить все модели Ollama для экспертов</value>
+  </synonym>
+  <comment>В регистре «Модели локального Ollama» для всех строк с «Есть на сервере» включает «Доступна для выбора в эксперте».</comment>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
