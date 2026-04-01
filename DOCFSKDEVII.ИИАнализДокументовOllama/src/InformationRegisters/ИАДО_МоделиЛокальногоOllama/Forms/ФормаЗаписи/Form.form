@@ -3,39 +3,16 @@
   <items xsi:type="form:FormGroup">
     <name>ГруппаИнструкция</name>
     <id>1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Как подключить модели к экспертам</value>
-    </title>
-    <extendedTooltip>
-      <name>ГруппаИнструкцияРасширеннаяПодсказка</name>
-      <id>2</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
-    </extInfo>
     <items xsi:type="form:Decoration">
       <name>НадписьШаги</name>
       <id>3</id>
       <title>
         <key>ru</key>
-        <value>1) Укажите константу «Ollama: базовый URL» и выполните команду «Загрузить модели Ollama с сервера» (раздел «Интеграция ИИ»).&#10;2) Отметьте «Доступна для выбора в эксперте» у нужных моделей — либо по одной в списке/форме, либо одной командой «Включить все модели Ollama для экспертов».&#10;3) В справочнике «Эксперты ИИ» с провайдером «Локальный Ollama» поле «Имя модели» предложит отмеченные модели.&#10;&#10;«Есть на сервере» и «Размер» обновляются при загрузке списка с сервера.</value>
+        <value>1) Укажите константу «Ollama: базовый URL» и выполните команду «Загрузить модели Ollama с сервера» (раздел «Интеграция ИИ»).
+2) Отметьте «Доступна для выбора в эксперте» у нужных моделей — либо по одной в списке/форме, либо одной командой «Включить все модели Ollama для экспертов».
+3) В справочнике «Эксперты ИИ» с провайдером «Локальный Ollama» поле «Имя модели» предложит отмеченные модели.
+
+«Есть на сервере» и «Размер» обновляются при загрузке списка с сервера.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -67,6 +44,33 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Как подключить модели к экспертам</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаИнструкцияРасширеннаяПодсказка</name>
+      <id>2</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ИмяМодели</name>

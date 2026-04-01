@@ -52,14 +52,14 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <listPresentation>
-    <key>ru</key>
-    <value>Правила: вид и тематика — эксперт</value>
-  </listPresentation>
   <recordPresentation>
     <key>ru</key>
     <value>Правило выбора эксперта</value>
   </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Правила: вид и тематика — эксперт</value>
+  </listPresentation>
   <resources uuid="947767d5-5893-4775-9968-4c25e3391968">
     <name>Эксперт</name>
     <synonym>

@@ -52,14 +52,14 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <listPresentation>
-    <key>ru</key>
-    <value>Модели Ollama на сервере</value>
-  </listPresentation>
   <recordPresentation>
     <key>ru</key>
     <value>Модель Ollama</value>
   </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Модели Ollama на сервере</value>
+  </listPresentation>
   <resources uuid="d6e7f8a9-b0c1-4234-d567-8ef012345678">
     <name>ДоступнаДляВыбора</name>
     <synonym>
@@ -74,9 +74,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:BooleanValue">
-      <value>false</value>
-    </fillValue>
+    <fillValue xsi:type="core:BooleanValue"/>
   </resources>
   <resources uuid="e7f8a9b0-c1d2-4345-e678-9f0123456789">
     <name>ЕстьНаСервере</name>

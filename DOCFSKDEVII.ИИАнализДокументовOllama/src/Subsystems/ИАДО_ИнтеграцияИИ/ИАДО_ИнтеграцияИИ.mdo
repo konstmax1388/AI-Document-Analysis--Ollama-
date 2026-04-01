@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aef5ae4-4cdd-4dc0-b290-5fdaf446e692">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aef5ae4-4cdd-4dc0-b290-5fdaf446e692">
   <name>ИАДО_ИнтеграцияИИ</name>
   <synonym>
     <key>ru</key>
     <value>Интеграция ИИ (Ollama)</value>
   </synonym>
   <comment>Объекты настройки экспертов и подключения к Ollama.</comment>
-  <includeHelpInContents>false</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИАДО_ИнтеграцииИИOllama</picture>
+  </picture>
   <content>CommonCommand.ИАДО_ТестПодключенияOllama</content>
-  <content>CommonCommand.ИАДО_ТестПодключенияOpenRouter</content>
   <content>CommonCommand.ИАДО_ЗагрузитьМоделиOllamaССервера</content>
   <content>CommonCommand.ИАДО_ВключитьВсеМоделиOllamaДляЭкспертов</content>
   <content>Enum.ИАДО_ПровайдерыИИ</content>
   <content>Constant.ИАДО_OllamaБазовыйURL</content>
   <content>Constant.ИАДО_OllamaТаймаутСек</content>
   <content>Constant.ИАДО_OllamaМодельПоУмолчанию</content>
-  <content>Constant.ИАДО_OpenRouterБазовыйURL</content>
-  <content>Constant.ИАДО_OpenRouterКлючAPI</content>
-  <content>Constant.ИАДО_OpenRouterМодельПоУмолчанию</content>
   <content>Catalog.ИАДО_ЭкспертыИИ</content>
   <content>InformationRegister.ИАДО_ПравилаЭкспертовДокументов</content>
   <content>InformationRegister.ИАДО_ЖурналОбращенийКИИ</content>
+  <content>InformationRegister.ИАДО_ОчередьРаспознаванияФайлов</content>
   <content>InformationRegister.ИАДО_МоделиЛокальногоOllama</content>
   <content>CommonModule.ИАДО_ИнтеграцияOllamaВызовСервера</content>
-  <content>CommonModule.ИАДО_ИнтеграцияOpenRouterВызовСервера</content>
   <content>CommonModule.ИАДО_НастройкиАнализаИИВызовСервера</content>
   <content>CommonModule.ИАДО_ТекстФайлаДляИИВызовСервера</content>
   <content>CommonModule.ИАДО_ЖурналИИВызовСервера</content>

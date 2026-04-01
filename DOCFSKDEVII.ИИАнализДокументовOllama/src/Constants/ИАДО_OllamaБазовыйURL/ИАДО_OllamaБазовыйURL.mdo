@@ -10,7 +10,7 @@
     <key>ru</key>
     <value>Ollama: базовый URL</value>
   </synonym>
-  <comment>Например http://192.168.10.79:11434</comment>
+  <comment>Например http://localhost:11434 или http://ollama-server:11434</comment>
   <type>
     <types>String</types>
     <stringQualifiers>

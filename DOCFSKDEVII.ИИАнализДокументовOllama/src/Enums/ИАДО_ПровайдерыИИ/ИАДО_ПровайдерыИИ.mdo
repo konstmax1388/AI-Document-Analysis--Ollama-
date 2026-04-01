@@ -10,7 +10,7 @@
     <key>ru</key>
     <value>Провайдеры ИИ (расширение ИАДО)</value>
   </synonym>
-  <comment>Куда отправляется запрос: локальный Ollama или облако OpenRouter (совместимый OpenAI API).</comment>
+  <comment>Используется локальный сервер Ollama (единственный поддерживаемый провайдер в этой версии расширения).</comment>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>
@@ -36,13 +36,5 @@
       <value>Локальный Ollama</value>
     </synonym>
     <comment>POST /api/generate на вашем сервере (например :11434).</comment>
-  </enumValues>
-  <enumValues uuid="e0f6c3a4-8d5b-4f9c-9e3a-4f0c7b2d5e6f">
-    <name>OpenRouterChat</name>
-    <synonym>
-      <key>ru</key>
-      <value>OpenRouter (чат, OpenAI API)</value>
-    </synonym>
-    <comment>POST /v1/chat/completions, ключ в константе «OpenRouter: ключ API».</comment>
   </enumValues>
 </mdclass:Enum>
