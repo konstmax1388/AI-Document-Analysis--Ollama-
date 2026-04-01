@@ -11,7 +11,7 @@
 
 Готовый файл расширения **`.cfe`** для установки без сборки из исходников выкладывается в **GitHub Releases**:
 
-**[Скачать релизы →](https://github.com/konstmax1388/AI-Document-Analysis--Ollama-/releases)**
+**[Скачать релизы →](https://github.com/konstmax1388/AI-Document-Analysis--Ollama-/blob/release/cfe-0.4.21.0/releases/)**
 
 Рекомендуется брать **последний** релиз по дате/версии и сверять номер с полем `version` в метаданных расширения.
 
