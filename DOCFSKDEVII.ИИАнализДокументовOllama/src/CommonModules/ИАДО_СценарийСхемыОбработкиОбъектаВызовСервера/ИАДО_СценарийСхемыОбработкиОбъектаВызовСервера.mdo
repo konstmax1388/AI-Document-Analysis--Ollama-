@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8e91821-3246-5466-b688-990cabcd1004">
+  <name>ИАДО_СценарийСхемыОбработкиОбъектаВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИАДО: сценарий скрипта схемы обработки объекта</value>
+  </synonym>
+  <comment>Точка входа для выражения в справочнике скриптов схем обработки объекта; модуль своей конфигурации расширения, без заимствования.</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

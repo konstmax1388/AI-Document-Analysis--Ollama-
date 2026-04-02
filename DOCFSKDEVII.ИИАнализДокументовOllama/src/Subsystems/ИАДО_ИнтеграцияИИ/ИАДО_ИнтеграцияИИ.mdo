@@ -28,5 +28,6 @@
   <content>CommonModule.ИАДО_ЖурналИИВызовСервера</content>
   <content>CommonModule.ИАДО_ОтветИИФайлДокументаВызовСервера</content>
   <content>CommonModule.ИАДО_ИнтеграцияИИВызовСервера</content>
+  <content>CommonModule.ИАДО_СценарийСхемыОбработкиОбъектаВызовСервера</content>
   <content>CommonModule.ИАДО_ИнтеграцияИИКлиент</content>
 </mdclass:Subsystem>

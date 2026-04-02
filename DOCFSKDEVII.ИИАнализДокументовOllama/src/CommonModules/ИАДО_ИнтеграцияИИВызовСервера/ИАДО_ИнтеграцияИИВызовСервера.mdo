@@ -6,6 +6,7 @@
     <value>Интеграция ИИ: сценарии (вызов сервера)</value>
   </synonym>
   <comment>Фоновые операции и сборка запросов к Ollama по документу/файлу.</comment>
+  <global>false</global>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>

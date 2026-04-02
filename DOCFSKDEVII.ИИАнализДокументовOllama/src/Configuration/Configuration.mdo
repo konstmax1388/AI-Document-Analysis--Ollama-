@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor></vendor>
-  <version>0.4.23.0</version>
+  <version>0.4.29.0</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -56,6 +56,8 @@
   <commonModules>CommonModule.ИАДО_ОтветИИФайлДокументаВызовСервера</commonModules>
   <commonModules>CommonModule.ИАДО_ИнтеграцияИИВызовСервера</commonModules>
   <commonModules>CommonModule.ИАДО_ИнтеграцияИИКлиент</commonModules>
+  <commonModules>CommonModule.ИАДО_СценарийСхемыОбработкиОбъектаВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСКомплекснымиБизнесПроцессамиСерверПереопределяемый</commonModules>
   <commonCommands>CommonCommand.ИАДО_ТестПодключенияOllama</commonCommands>
   <commonCommands>CommonCommand.ИАДО_ЗагрузитьМоделиOllamaССервера</commonCommands>
   <commonCommands>CommonCommand.ИАДО_ВключитьВсеМоделиOllamaДляЭкспертов</commonCommands>
@@ -65,6 +67,7 @@
   <catalogs>Catalog.ВидыДокументов</catalogs>
   <catalogs>Catalog.ДокументыПредприятия</catalogs>
   <catalogs>Catalog.ИАДО_ЭкспертыИИ</catalogs>
+  <catalogs>Catalog.ОбработкиОбъектов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ТематикиДокументов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
