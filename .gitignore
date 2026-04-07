@@ -15,9 +15,13 @@ Thumbs.db
 .env
 *.secret
 
-# Публичный репозиторий: в Git только расширение ИИ Оllama + релизный .cfe;
-# документация и прочие материалы — только в локальной рабочей копии
-docs/
+# Внутренняя/разработческая документация — не публикуется в Git
+docs/BACKLOG_II_OLLAMA_DOKUMENTOOBOROT.md
+docs/DO3_SKILLS_INDEX.md
+docs/GIT_FOR_TEAM.md
+docs/RELEASE_II_OLLAMA_2.0.md
+docs/ИАДО_*
+
 CHANGELOG.md
 
 # Публичный репозиторий: не включать локальные инструменты и чужие конфигурации
@@ -32,9 +36,8 @@ DOCFSKDEVII.Доработки*/
 DOCFSKDEVII.lvv_*/
 DOCFSKDEVII.Изменение*/
 
-# Логи сборки релиза (артефакт — только релизный .cfe)
+# Логи сборки релиза
 releases/*.log
-releases/README.md
 releases/ИИАнализДокументовOllama.cfe
 
 # Прочие локальные каталоги корня рабочей копии (не расширение)
