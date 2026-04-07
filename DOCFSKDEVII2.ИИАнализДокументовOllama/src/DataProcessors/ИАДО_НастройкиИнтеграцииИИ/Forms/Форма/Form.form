@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Настройки интеграции ИИ</value>
+  </title>
+  <items xsi:type="form:FormGroup">
+    <name>Корень</name>
+    <id>100</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаOllama</name>
+      <id>110</id>
+      <items xsi:type="form:FormField">
+        <name>OllamaБазовыйURL</name>
+        <id>111</id>
+        <title><key>ru</key><value>Базовый URL</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <dataPath xsi:type="form:DataPath"><segments>OllamaБазовыйURL</segments></dataPath>
+        <extendedTooltip><name>OllamaБазовыйURLРасширеннаяПодсказка</name><id>112</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <contextMenu><name>OllamaБазовыйURLКонтекстноеМеню</name><id>113</id><autoFill>true</autoFill></contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo"><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><horizontalStretch>true</horizontalStretch><wrap>true</wrap><chooseType>true</chooseType><typeDomainEnabled>true</typeDomainEnabled><textEdit>true</textEdit></extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>OllamaТаймаутСек</name>
+        <id>114</id>
+        <title><key>ru</key><value>Таймаут HTTP, сек (0 = 30)</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <dataPath xsi:type="form:DataPath"><segments>OllamaТаймаутСек</segments></dataPath>
+        <extendedTooltip><name>OllamaТаймаутСекРасширеннаяПодсказка</name><id>115</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <contextMenu><name>OllamaТаймаутСекКонтекстноеМеню</name><id>116</id><autoFill>true</autoFill></contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo"><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><chooseType>true</chooseType><typeDomainEnabled>true</typeDomainEnabled><textEdit>true</textEdit></extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>OllamaМодельПоУмолчанию</name>
+        <id>117</id>
+        <title><key>ru</key><value>Модель по умолчанию</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <dataPath xsi:type="form:DataPath"><segments>OllamaМодельПоУмолчанию</segments></dataPath>
+        <extendedTooltip><name>OllamaМодельПоУмолчаниюРасширеннаяПодсказка</name><id>118</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <contextMenu><name>OllamaМодельПоУмолчаниюКонтекстноеМеню</name><id>119</id><autoFill>true</autoFill></contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo"><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><horizontalStretch>true</horizontalStretch><wrap>true</wrap><chooseType>true</chooseType><typeDomainEnabled>true</typeDomainEnabled><textEdit>true</textEdit></extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаКомандыOllama</name>
+        <id>120</id>
+        <items xsi:type="form:Button">
+          <name>КомандаТестOllama</name>
+          <id>121</id>
+        <title><key>ru</key><value>Проверить Ollama</value></title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible><common>true</common></userVisible>
+          <extendedTooltip><name>КомандаТестOllamaРасширеннаяПодсказка</name><id>122</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+          <commandName>Form.Command.ТестOllama</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+        </items>
+        <items xsi:type="form:Button">
+          <name>КомандаЗагрузитьМодели</name>
+          <id>123</id>
+          <title><key>ru</key><value>Загрузить список моделей</value></title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible><common>true</common></userVisible>
+          <extendedTooltip><name>КомандаЗагрузитьМоделиРасширеннаяПодсказка</name><id>124</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+          <commandName>Form.Command.ЗагрузитьМоделиOllama</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+        </items>
+        <items xsi:type="form:Button">
+          <name>КомандаВключитьВсеМодели</name>
+          <id>125</id>
+        <title><key>ru</key><value>Включить все модели</value></title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible><common>true</common></userVisible>
+          <extendedTooltip><name>КомандаВключитьВсеМоделиРасширеннаяПодсказка</name><id>126</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+          <commandName>Form.Command.ВключитьВсеМоделиOllama</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <extendedTooltip><name>ГруппаКомандыOllamaРасширеннаяПодсказка</name><id>127</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo"><group>HorizontalIfPossible</group><showLeftMargin>true</showLeftMargin><united>false</united><throughAlign>Auto</throughAlign><currentRowUse>Auto</currentRowUse></extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible><common>true</common></userVisible>
+      <title><key>ru</key><value>Локальный Ollama</value></title>
+      <extendedTooltip><name>ГруппаOllamaРасширеннаяПодсказка</name><id>128</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo"><group>Vertical</group><representation>NormalSeparation</representation><showLeftMargin>true</showLeftMargin><united>true</united><throughAlign>Auto</throughAlign><currentRowUse>Auto</currentRowUse></extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаОблако</name>
+      <id>200</id>
+      <items xsi:type="form:FormField">
+        <name>ОблакоБазовыйURL</name>
+        <id>201</id>
+        <title><key>ru</key><value>Базовый URL API</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <dataPath xsi:type="form:DataPath"><segments>ОблакоБазовыйURL</segments></dataPath>
+        <extendedTooltip><name>ОблакоБазовыйURLРасширеннаяПодсказка</name><id>202</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <contextMenu><name>ОблакоБазовыйURLКонтекстноеМеню</name><id>203</id><autoFill>true</autoFill></contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo"><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><horizontalStretch>true</horizontalStretch><wrap>true</wrap><chooseType>true</chooseType><typeDomainEnabled>true</typeDomainEnabled><textEdit>true</textEdit></extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ОблакоКлючAPI</name>
+        <id>204</id>
+        <title><key>ru</key><value>Ключ API</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <dataPath xsi:type="form:DataPath"><segments>ОблакоКлючAPI</segments></dataPath>
+        <extendedTooltip><name>ОблакоКлючAPIРасширеннаяПодсказка</name><id>205</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <contextMenu><name>ОблакоКлючAPIКонтекстноеМеню</name><id>206</id><autoFill>true</autoFill></contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo"><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><horizontalStretch>true</horizontalStretch><wrap>true</wrap><passwordMode>true</passwordMode><chooseType>true</chooseType><typeDomainEnabled>true</typeDomainEnabled><textEdit>true</textEdit></extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ОблакоМодельПоУмолчанию</name>
+        <id>207</id>
+        <title><key>ru</key><value>Модель по умолчанию</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <dataPath xsi:type="form:DataPath"><segments>ОблакоМодельПоУмолчанию</segments></dataPath>
+        <extendedTooltip><name>ОблакоМодельПоУмолчаниюРасширеннаяПодсказка</name><id>208</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <contextMenu><name>ОблакоМодельПоУмолчаниюКонтекстноеМеню</name><id>209</id><autoFill>true</autoFill></contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo"><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><horizontalStretch>true</horizontalStretch><wrap>true</wrap><chooseType>true</chooseType><typeDomainEnabled>true</typeDomainEnabled><textEdit>true</textEdit></extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ОблакоТаймаутСек</name>
+        <id>210</id>
+        <title><key>ru</key><value>Таймаут HTTP, сек (0 = авто ≥ 300)</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <dataPath xsi:type="form:DataPath"><segments>ОблакоТаймаутСек</segments></dataPath>
+        <extendedTooltip><name>ОблакоТаймаутСекРасширеннаяПодсказка</name><id>211</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <contextMenu><name>ОблакоТаймаутСекКонтекстноеМеню</name><id>212</id><autoFill>true</autoFill></contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo"><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><chooseType>true</chooseType><typeDomainEnabled>true</typeDomainEnabled><textEdit>true</textEdit></extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ОблакоPDFТолькоТекст</name>
+        <id>216</id>
+        <title><key>ru</key><value>Для PDF передавать только текст (без файла в запросе)</value></title>
+        <visible>false</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <dataPath xsi:type="form:DataPath"><segments>ОблакоPDFТолькоТекст</segments></dataPath>
+        <titleLocation>Right</titleLocation>
+        <extendedTooltip><name>ОблакоPDFТолькоТекстРасширеннаяПодсказка</name><id>217</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <contextMenu><name>ОблакоPDFТолькоТекстКонтекстноеМеню</name><id>218</id><autoFill>true</autoFill></contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:Button">
+        <name>КомандаТестОблако</name>
+        <id>213</id>
+        <title><key>ru</key><value>Проверить облачный API</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <extendedTooltip><name>КомандаТестОблакоРасширеннаяПодсказка</name><id>214</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <commandName>Form.Command.ТестОблакоИИ</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible><common>true</common></userVisible>
+      <title><key>ru</key><value>Облачный API (OpenAI-совместимый)</value></title>
+      <extendedTooltip><name>ГруппаОблакоРасширеннаяПодсказка</name><id>215</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo"><group>Vertical</group><representation>NormalSeparation</representation><showLeftMargin>true</showLeftMargin><united>true</united><throughAlign>Auto</throughAlign><currentRowUse>Auto</currentRowUse></extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаСсылки</name>
+      <id>300</id>
+      <items xsi:type="form:Button">
+        <name>СсылкаЭкспертыИИ</name>
+        <id>301</id>
+        <title><key>ru</key><value>Эксперты ИИ</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <extendedTooltip><name>СсылкаЭкспертыИИРасширеннаяПодсказка</name><id>302</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.ОткрытьЭкспертыИИ</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СсылкаПравилаЭкспертов</name>
+        <id>303</id>
+        <title><key>ru</key><value>Правила экспертов по видам документов</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <extendedTooltip><name>СсылкаПравилаЭкспертовРасширеннаяПодсказка</name><id>304</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.ОткрытьПравилаЭкспертов</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СсылкаЖурналИИ</name>
+        <id>305</id>
+        <title><key>ru</key><value>Журнал обращений к ИИ</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <extendedTooltip><name>СсылкаЖурналИИРасширеннаяПодсказка</name><id>306</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.ОткрытьЖурналИИ</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СсылкаМоделиOllama</name>
+        <id>307</id>
+        <title><key>ru</key><value>Модели локального Ollama (регистр)</value></title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible><common>true</common></userVisible>
+        <extendedTooltip><name>СсылкаМоделиOllamaРасширеннаяПодсказка</name><id>308</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.ОткрытьМоделиOllama</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible><common>true</common></userVisible>
+      <title><key>ru</key><value>Справочники и журналы</value></title>
+      <extendedTooltip><name>ГруппаСсылкиРасширеннаяПодсказка</name><id>309</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo"><group>Vertical</group><representation>WeakSeparation</representation><showLeftMargin>true</showLeftMargin><united>true</united><throughAlign>Auto</throughAlign><currentRowUse>Auto</currentRowUse></extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible><common>true</common></userVisible>
+    <extendedTooltip><name>КореньРасширеннаяПодсказка</name><id>399</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo"><group>Vertical</group><showLeftMargin>true</showLeftMargin><united>false</united><throughAlign>Auto</throughAlign><currentRowUse>Auto</currentRowUse></extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаЗаписать</name>
+      <id>400</id>
+      <title><key>ru</key><value>Записать</value></title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible><common>true</common></userVisible>
+      <extendedTooltip><name>ФормаЗаписатьРасширеннаяПодсказка</name><id>401</id><type>Label</type><autoMaxWidth>true</autoMaxWidth><autoMaxHeight>true</autoMaxHeight><extInfo xsi:type="form:LabelDecorationExtInfo"><horizontalAlign>Left</horizontalAlign></extInfo></extendedTooltip>
+      <commandName>Form.Command.Записать</commandName>
+      <representation>Auto</representation>
+      <defaultButton>true</defaultButton>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+    </items>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>OllamaБазовыйURL</name>
+    <title><key>ru</key><value>Ollama: базовый URL</value></title>
+    <id>1</id>
+    <valueType><types>String</types><stringQualifiers><length>500</length></stringQualifiers></valueType>
+    <view><common>true</common></view>
+    <edit><common>true</common></edit>
+  </attributes>
+  <attributes>
+    <name>OllamaТаймаутСек</name>
+    <title><key>ru</key><value>Ollama: таймаут</value></title>
+    <id>2</id>
+    <valueType><types>Number</types><numberQualifiers><precision>5</precision><nonNegative>true</nonNegative></numberQualifiers></valueType>
+    <view><common>true</common></view>
+    <edit><common>true</common></edit>
+  </attributes>
+  <attributes>
+    <name>OllamaМодельПоУмолчанию</name>
+    <title><key>ru</key><value>Ollama: модель</value></title>
+    <id>3</id>
+    <valueType><types>String</types><stringQualifiers><length>200</length></stringQualifiers></valueType>
+    <view><common>true</common></view>
+    <edit><common>true</common></edit>
+  </attributes>
+  <attributes>
+    <name>ОблакоБазовыйURL</name>
+    <title><key>ru</key><value>Облако: URL</value></title>
+    <id>4</id>
+    <valueType><types>String</types><stringQualifiers><length>500</length></stringQualifiers></valueType>
+    <view><common>true</common></view>
+    <edit><common>true</common></edit>
+  </attributes>
+  <attributes>
+    <name>ОблакоКлючAPI</name>
+    <title><key>ru</key><value>Облако: ключ</value></title>
+    <id>5</id>
+    <valueType><types>String</types><stringQualifiers><length>500</length></stringQualifiers></valueType>
+    <view><common>true</common></view>
+    <edit><common>true</common></edit>
+  </attributes>
+  <attributes>
+    <name>ОблакоМодельПоУмолчанию</name>
+    <title><key>ru</key><value>Облако: модель</value></title>
+    <id>6</id>
+    <valueType><types>String</types><stringQualifiers><length>200</length></stringQualifiers></valueType>
+    <view><common>true</common></view>
+    <edit><common>true</common></edit>
+  </attributes>
+  <attributes>
+    <name>ОблакоТаймаутСек</name>
+    <title><key>ru</key><value>Облако: таймаут</value></title>
+    <id>7</id>
+    <valueType><types>Number</types><numberQualifiers><precision>5</precision><nonNegative>true</nonNegative></numberQualifiers></valueType>
+    <view><common>true</common></view>
+    <edit><common>true</common></edit>
+  </attributes>
+  <attributes>
+    <name>РедактированиеДоступно</name>
+    <title><key>ru</key><value>Редактирование доступно</value></title>
+    <id>8</id>
+    <valueType><types>Boolean</types></valueType>
+    <view><common>true</common></view>
+    <edit><common>false</common></edit>
+  </attributes>
+  <attributes>
+    <name>ОблакоPDFТолькоТекст</name>
+    <title><key>ru</key><value>Облако: PDF только текст</value></title>
+    <id>9</id>
+    <valueType><types>Boolean</types></valueType>
+    <view><common>true</common></view>
+    <edit><common>true</common></edit>
+  </attributes>
+  <formCommands>
+    <name>Записать</name>
+    <title><key>ru</key><value>Записать</value></title>
+    <id>901</id>
+    <use><common>true</common></use>
+    <action xsi:type="form:FormCommandHandlerContainer"><handler><name>Записать</name></handler></action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ТестOllama</name>
+    <title><key>ru</key><value>Тест Ollama</value></title>
+    <id>902</id>
+    <use><common>true</common></use>
+    <action xsi:type="form:FormCommandHandlerContainer"><handler><name>ТестOllama</name></handler></action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьМоделиOllama</name>
+    <title><key>ru</key><value>Загрузить модели Ollama</value></title>
+    <id>903</id>
+    <use><common>true</common></use>
+    <action xsi:type="form:FormCommandHandlerContainer"><handler><name>ЗагрузитьМоделиOllama</name></handler></action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ВключитьВсеМоделиOllama</name>
+    <title><key>ru</key><value>Включить все модели</value></title>
+    <id>904</id>
+    <use><common>true</common></use>
+    <action xsi:type="form:FormCommandHandlerContainer"><handler><name>ВключитьВсеМоделиOllama</name></handler></action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ТестОблакоИИ</name>
+    <title><key>ru</key><value>Тест облака</value></title>
+    <id>905</id>
+    <use><common>true</common></use>
+    <action xsi:type="form:FormCommandHandlerContainer"><handler><name>ТестОблакоИИ</name></handler></action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьЭкспертыИИ</name>
+    <title><key>ru</key><value>Эксперты ИИ</value></title>
+    <id>906</id>
+    <use><common>true</common></use>
+    <action xsi:type="form:FormCommandHandlerContainer"><handler><name>ОткрытьЭкспертыИИ</name></handler></action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьПравилаЭкспертов</name>
+    <title><key>ru</key><value>Правила</value></title>
+    <id>907</id>
+    <use><common>true</common></use>
+    <action xsi:type="form:FormCommandHandlerContainer"><handler><name>ОткрытьПравилаЭкспертов</name></handler></action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьЖурналИИ</name>
+    <title><key>ru</key><value>Журнал</value></title>
+    <id>908</id>
+    <use><common>true</common></use>
+    <action xsi:type="form:FormCommandHandlerContainer"><handler><name>ОткрытьЖурналИИ</name></handler></action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьМоделиOllama</name>
+    <title><key>ru</key><value>Модели</value></title>
+    <id>909</id>
+    <use><common>true</common></use>
+    <action xsi:type="form:FormCommandHandlerContainer"><handler><name>ОткрытьМоделиOllama</name></handler></action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
+</form:Form>

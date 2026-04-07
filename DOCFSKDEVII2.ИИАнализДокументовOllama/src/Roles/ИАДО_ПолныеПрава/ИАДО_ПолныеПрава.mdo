@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c1d2e3f-4a5b-6c7d-8e9f-0a1b2c3d4e5f">
+  <name>ИАДО_ПолныеПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИАДО: полные права</value>
+  </synonym>
+  <comment>Полный набор прав на объекты расширения ИИ (включая удаление). Для администраторов подсистемы.</comment>
+</mdclass:Role>

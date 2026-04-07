@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3d4e5f6-a7b8-4901-cdef-123456789abc">
+  <producedTypes>
+    <objectType typeId="c3d4e5f6-a7b8-4902-cdef-123456789abd" valueTypeId="c3d4e5f6-a7b8-4903-cdef-123456789abe"/>
+    <managerType typeId="c3d4e5f6-a7b8-4904-cdef-123456789abf" valueTypeId="c3d4e5f6-a7b8-4905-cdef-123456789ac0"/>
+  </producedTypes>
+  <name>ИАДО_НастройкиИнтеграцииИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции ИИ</value>
+  </synonym>
+  <comment>Единое окно: константы Ollama и облака, тесты, переход к справочникам и регистрам.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИАДО_НастройкиИнтеграцииИИ.Form.Форма</defaultForm>
+  <forms uuid="d4e5f6a7-b8c9-4012-def0-123456789ac1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

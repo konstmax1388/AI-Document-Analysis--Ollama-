@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b1c1d1-e2f2-4a3b-8c4d-5e6f708192a0">
+  <producedTypes>
+    <managerType typeId="a1b1c1d1-e2f2-4a3b-8c4d-5e6f708192a1" valueTypeId="a1b1c1d1-e2f2-4a3b-8c4d-5e6f708192a2"/>
+    <valueManagerType typeId="a1b1c1d1-e2f2-4a3b-8c4d-5e6f708192a3" valueTypeId="a1b1c1d1-e2f2-4a3b-8c4d-5e6f708192a4"/>
+    <valueKeyType typeId="a1b1c1d1-e2f2-4a3b-8c4d-5e6f708192a5" valueTypeId="a1b1c1d1-e2f2-4a3b-8c4d-5e6f708192a6"/>
+  </producedTypes>
+  <name>ИАДО_ОблакоИИТаймаутСек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Облако ИИ: таймаут HTTP (сек.)</value>
+  </synonym>
+  <comment>Таймаут для chat/completions (DeepSeek и др.). 0 — не меньше 300 с и не меньше таймаута Ollama.</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

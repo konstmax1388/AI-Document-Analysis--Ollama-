@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9d8e7f6-a5b4-4c3d-9e2f-1a0b9c8d7e6f">
+  <name>ИАДО_ИнтеграцияOpenAIСовместимыйВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция OpenAI-совместимый API (вызов сервера)</value>
+  </synonym>
+  <comment>HTTP POST chat/completions (DeepSeek и аналоги).</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

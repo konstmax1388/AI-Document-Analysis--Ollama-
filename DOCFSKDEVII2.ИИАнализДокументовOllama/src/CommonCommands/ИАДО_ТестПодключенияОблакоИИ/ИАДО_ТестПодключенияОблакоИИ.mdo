@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8c9d0e1-f2a3-4456-b789-c0d1e2f3a4b5">
+  <name>ИАДО_ТестПодключенияОблакоИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест облачного ИИ (DeepSeek и др.)</value>
+  </synonym>
+  <comment>POST chat/completions по константам «Облако ИИ».</comment>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

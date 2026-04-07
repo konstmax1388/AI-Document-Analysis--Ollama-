@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7f80901-2345-6789-abcd-ef0123456789">
+  <name>ИАДО_ОткрытьНастройкиИнтеграцииИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции ИИ</value>
+  </synonym>
+  <comment>Обработка с полями констант Ollama и облака, тесты и ссылки на списки.</comment>
+  <group>NavigationPanelImportant</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
