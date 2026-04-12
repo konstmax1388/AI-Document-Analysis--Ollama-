@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7f80901-2345-6789-abcd-ef0123456791">
+  <name>ИАДО_ПоказатьВерсиюРасширенияИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия 0.5.6.0</value>
+  </synonym>
+  <comment>Справочно: номер версии расширения (синхронизировать с Configuration.mdo и общим модулем очереди).</comment>
+  <group>NavigationPanelSeeAlso</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

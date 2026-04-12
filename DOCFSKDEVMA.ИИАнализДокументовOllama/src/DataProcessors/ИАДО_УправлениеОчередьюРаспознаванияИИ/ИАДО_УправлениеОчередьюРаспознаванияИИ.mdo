@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1e2f3a4-b5c6-4789-d012-34ef567890ab">
+  <producedTypes>
+    <objectType typeId="d1e2f3a4-b5c6-4789-d012-34ef567890ac" valueTypeId="d1e2f3a4-b5c6-4789-d012-34ef567890ad"/>
+    <managerType typeId="d1e2f3a4-b5c6-4789-d012-34ef567890ae" valueTypeId="d1e2f3a4-b5c6-4789-d012-34ef567890af"/>
+  </producedTypes>
+  <name>ИАДО_УправлениеОчередьюРаспознаванияИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь распознавания для анализа ИИ</value>
+  </synonym>
+  <comment>Сводка по регистру ИАДО_ОчередьРаспознаванияФайлов, сброс зависших и активных заявок.</comment>
+  <useStandardCommands>false</useStandardCommands>
+  <defaultForm>DataProcessor.ИАДО_УправлениеОчередьюРаспознаванияИИ.Form.Форма</defaultForm>
+  <forms uuid="d1e2f3a4-b5c6-4789-d012-34ef567890b0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

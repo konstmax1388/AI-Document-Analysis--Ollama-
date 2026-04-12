@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aef5ae4-4cdd-4dc0-b290-5fdaf446e692">
+  <name>ИАДО_ИнтеграцияИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ИИ · 0.5.6.0</value>
+  </synonym>
+  <comment>Настройка экспертов, Ollama и облачного API (DeepSeek и др.).</comment>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИАДО_ИнтеграцииИИOllama</picture>
+  </picture>
+  <content>CommonCommand.ИАДО_ОткрытьНастройкиИнтеграцииИИ</content>
+  <content>CommonCommand.ИАДО_ОткрытьУправлениеОчередьюРаспознаванияИИ</content>
+  <content>CommonCommand.ИАДО_ПоказатьВерсиюРасширенияИИ</content>
+  <content>DataProcessor.ИАДО_НастройкиИнтеграцииИИ</content>
+  <content>DataProcessor.ИАДО_УправлениеОчередьюРаспознаванияИИ</content>
+  <content>Catalog.ИАДО_ЭкспертыИИ</content>
+  <content>InformationRegister.ИАДО_ПравилаЭкспертовДокументов</content>
+  <content>InformationRegister.ИАДО_ЖурналОбращенийКИИ</content>
+  <content>InformationRegister.ИАДО_ОчередьРаспознаванияФайлов</content>
+  <content>InformationRegister.ИАДО_МоделиЛокальногоOllama</content>
+  <content>Role.ИАДО_Просмотр</content>
+  <content>Role.ИАДО_Использование</content>
+  <content>Role.ИАДО_ПолныеПрава</content>
+</mdclass:Subsystem>
